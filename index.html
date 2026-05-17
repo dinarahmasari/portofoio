@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Dina Rahmasari</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Dina</div>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h3>Hello, I'm</h3>
+            <h1>Dina Rahmasari</h1>
+            <p>Welcome to my personal website! This website was created as part of my school project to showcase my skill, work, and experiences. Feel free to explore and get to know me better.</p>
+            <a href="#about" class="btn">About Me <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="hero-img-container">
+            <div class="hero-img">
+                <img src="dinaa.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="about reveal" id="about">
+        <div class="about-img-container">
+            <img src="dinaa.png" alt="Dina Profile">
+        </div>
+        <div class="about-text">
+            <h2 class="section-title">About Me</h2>
+            <p>Hello! I am Dina Rahmasari, a student who has a strong interest in learning new things, especially in the field of technology. I enjoy the process of creating simple website and exploring creative ideas to improve my skill and broaden my knowledge. This project is part of my learning journey in web development. Through this website, I showcase my work, skills, and experiences that I have gained during the learning process, as a step toward continuous growth and becoming better at every stage.</p>
+            <a href="my experience.html" class="btn">My Experience</a>
+        </div>
+    </section>
+
+    <section class="skills-section reveal" id="skills">
+        <h2 class="section-title">My Skill</h2>
+        <div class="skills-container">
+            
+            <div class="skill-bar">
+                <div class="skill-info">
+                    <i class="fab fa-html5"></i>
+                    <span class="skill-name">HTML</span>
+                    <span class="skill-percentage">80%</span>
+                </div>
+                <div class="progress-line"><span data-width="80%"></span></div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="skill-info">
+                    <i class="fab fa-css3-alt"></i>
+                    <span class="skill-name">CSS</span>
+                    <span class="skill-percentage">60%</span>
+                </div>
+                <div class="progress-line"><span data-width="60%"></span></div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="skill-info">
+                    <i class="fab fa-js"></i>
+                    <span class="skill-name">JavaScript</span>
+                    <span class="skill-percentage">70%</span>
+                </div>
+                <div class="progress-line"><span data-width="70%"></span></div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="skill-info">
+                    <i class="fab fa-bootstrap"></i>
+                    <span class="skill-name">Bootstrap</span>
+                    <span class="skill-percentage">75%</span>
+                </div>
+                <div class="progress-line"><span data-width="75%"></span></div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="skill-info">
+                    <i class="fab fa-figma"></i>
+                    <span class="skill-name">Figma</span>
+                    <span class="skill-percentage">55%</span>
+                </div>
+                <div class="progress-line"><span data-width="55%"></span></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projects-section reveal" id="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-grid">
+        
+        <div class="project-card">
+            <div class="project-img">
+                <img src="t1.jpg" alt="Portfolio Website">
+            </div>
+            <h4>Project 1</h4>
+            <a href="https://rofiqifaizin-png.github.io/kelolasampah/" class="btn-detail">Detail</a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <img src="t2 .jpg" alt="project 2">
+            </div>
+            <h4>Project 2</h4>
+            <a href="https://dinarahmasari.github.io/Tugas-2b_Bootstrap/" class="btn-detail">Detail</a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <img src="t3.jpg" alt="Dashboard UI">
+            </div>
+            <h4>Project 3</h4>
+            <a href="https://dinarahmasari.github.io/Tugas3_Environment/" class="btn-detail">Detail</a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <img src="t4.jpg" alt="E-Commerce UI">
+            </div>
+            <h4>Project 4</h4>
+            <a href="https://dinarahmasari.github.io/Tugas4_laut/" class="btn-detail">Detail</a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <img src="t5.jpg" alt="Todo App">
+            </div>
+            <h4>Project 5</h4>
+            <a href="https://dinarahmasari.github.io/Tugas5_Gadged/" class="btn-detail">Detail</a>
+        </div>
+
+    </div>
+</section>
+
+
+    <section class="reveal" id="contact">
+        <div class="contact-container">
+            
+            <div class="contact-left">
+                <h2>Let's Connect!</h2>
+                <p>I'm open to explore new opportunities.</p>
+            </div>
+
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Pesan berhasil terkirim!');">
+                <div class="form-row">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <input type="text" placeholder="Subject" class="input-subject" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn-submit">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>rahmasaridina52@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+6285727253471</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Indonesia</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2026 Dina Rahmasari. All Rights Reserved.
+    </footer>
+
+    <script>
+        // 1. Animasi Efek Muncul Perlahan saat Scroll (Scroll Reveal)
+        function revealElements() {
+            const reveals = document.querySelectorAll('.reveal');
+            const windowHeight = window.innerHeight;
+            
+            reveals.forEach(reveal => {
+                const elementTop = reveal.getBoundingClientRect().top;
+                const elementVisible = 150; 
+                
+                if (elementTop < windowHeight - elementVisible) {
+                    reveal.classList.add('active');
+                    
+                    // Trigger pengisian bar ketika section skill terbuka
+                    if(reveal.id === 'skills') {
+                        animateSkillBars();
+                    }
+                }
+            });
+        }
+
+        // 2. Animasi Pengisian Bar Progress Keahlian
+        function animateSkillBars() {
+            const progressSpans = document.querySelectorAll('.progress-line span');
+            progressSpans.forEach(span => {
+                const targetWidth = span.getAttribute('data-width');
+                span.style.width = targetWidth;
+            });
+        }
+
+        window.addEventListener('scroll', revealElements);
+        window.addEventListener('DOMContentLoaded', revealElements);
+
+        // 3. Sistem Tracker Navigasi Menu Aktif Mengikuti Posisi Scroll Halaman
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('nav a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= (sectionTop - 220)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

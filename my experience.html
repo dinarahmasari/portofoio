@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Coding Experience</title>
+    <style>
+        /* Gaya Umum */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        /* Navbar Sticky */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #2c3e50;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+
+        .navbar-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 15px 20px;
+        }
+
+        .navbar-logo {
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .navbar-menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar-menu li {
+            margin-left: 20px;
+        }
+
+        .navbar-menu a {
+            color: #bdc3c7;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+
+        .navbar-menu a:hover {
+            color: #3498db;
+        }
+
+        /* Layout Utama */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 100px 20px 40px 20px;
+        }
+
+        /* Gaya Section */
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+        }
+
+        /* Home / Header */
+        #home {
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        #home h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            color: #2c3e50;
+        }
+
+        #home p {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            margin-top: 10px;
+        }
+
+        /* Bagian Pengalaman */
+        .experience-item {
+            background: #fff;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            border-left: 5px solid #3498db;
+        }
+
+        .experience-role {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #2c3e50;
+            margin: 0;
+        }
+
+        .experience-company {
+            font-size: 1.1rem;
+            color: #3498db;
+            margin: 5px 0 10px 0;
+            font-weight: 600;
+        }
+
+        .experience-date {
+            font-size: 0.9rem;
+            color: #95a5a6;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .story-text {
+            text-align: justify;
+            text-indent: 30px;
+            margin-bottom: 15px;
+        }
+
+        /* Grid untuk Skill & Project */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        /* Footer & Contact */
+        .contact-info {
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 0.9rem;
+            color: #95a5a6;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#home" class="navbar-logo">MyPortfolio</a>
+            <ul class="navbar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Skill</a></li>
+                <li><a href="index.html">Project</a></li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+        <section id="home">
+            <h1>My Experience Making Coding</h1>
+            <p>Welcome to my portfolio. Discover my first experience in the world of technology and programming.</p>
+        </section>
+
+        <section id="about">
+            <h2 class="section-title">My Experience</h2>
+            
+            <div class="experience-item">
+                <p class="experience-role">Learning Simple Coding</p>
+                <div class="experience-company">School Activity with Teacher & Classmates</div>
+                <div class="experience-date">Monday</div>
+                
+                <p class="story-text">On Monday, I had a very interesting experience, which was learning to make simple coding on a computer. This activity was carried out at school with my teacher and classmates. Previously, I had only heard about coding, but I had never tried to make it directly. Therefore, I felt happy and curious when joining the activity.</p>
+                
+                <p class="story-text">Before the practice started, the teacher explained the meaning of coding and its benefits in daily life. The teacher said that coding is a language of commands used to create computer programs, applications, and games. In addition, the teacher also explained that coding requires accuracy, patience, and logical thinking skills. I listened carefully to the teacher’s explanation so that I could understand the steps clearly.</p>
+                
+                <p class="story-text">After the explanation, we started practicing by using our own computers. The teacher gave us an example of simple code that we had to type. I began typing the code one by one according to the instructions. While typing, I had to be careful because small mistakes such as missing brackets, wrong letters, or punctuation marks could make
